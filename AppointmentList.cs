@@ -82,22 +82,22 @@ namespace Prefabs.UpcomingAppointments
                 if (i == appointments.Count()-1)
                 {
                     gameObjectTransform.localScale = SetScale(gameObjectTransform.localScale, 1f);
-                    backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment0");
+                    backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment0");
                 }
                 else if (i == appointments.Count()-2)
                 {
                     gameObjectTransform.localScale = SetScale(gameObjectTransform.localScale, Scale);
-                    backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment1");
+                    backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment1");
                 }
                 else if (i == appointments.Count()-3)
                 {
                     gameObjectTransform.localScale = SetScale(gameObjectTransform.localScale, Scale*Scale);
-                    backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment2");
+                    backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment2");
                 }
                 else if (i == appointments.Count()-4)
                 {
                     gameObjectTransform.localScale = SetScale(gameObjectTransform.localScale, Scale*Scale*Scale);
-                    backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment3");
+                    backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment3");
                 }
                 else
                 {
@@ -123,22 +123,22 @@ namespace Prefabs.UpcomingAppointments
                     if (i == CurrentChild().GetSiblingIndex() +1)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, 1f), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment0");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment0");
                     }
                     else if (i == CurrentChild().GetSiblingIndex())
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment1");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment1");
                     }
                     else if (i == CurrentChild().GetSiblingIndex() -1)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale*Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment2");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment2");
                     }
                     else if (i == CurrentChild().GetSiblingIndex() -2)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale*Scale*Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment3");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment3");
                     }
                     else
                     {
@@ -161,22 +161,22 @@ namespace Prefabs.UpcomingAppointments
                     if (i == CurrentChild().GetSiblingIndex() -1)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, 1f), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment0");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment0");
                     }
                     else if (i == CurrentChild().GetSiblingIndex() -2)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment1");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment1");
                     }
                     else if (i == CurrentChild().GetSiblingIndex() -3)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale*Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment2");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment2");
                     }
                     else if (i == CurrentChild().GetSiblingIndex() -4)
                     {
                         transform.GetChild(i).transform.DOScale(SetScale(transform.GetChild(i).transform.localScale, Scale*Scale*Scale), 1f);
-                        backgroundImage.sprite = Resources.Load<Sprite>("Patient/BackgroundTemplateAppointment3");
+                        backgroundImage.sprite = Resources.Load<Sprite>("BackgroundTemplateAppointment3");
                     }
                     else
                     {
