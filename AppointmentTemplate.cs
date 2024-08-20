@@ -28,8 +28,6 @@ namespace Prefabs.UpcomingAppointments
             }
         
             if (!string.IsNullOrEmpty(iconImage)) icon.GetComponent<Image>().sprite = Resources.Load<Sprite>(iconImage);
-            // if (!string.IsNullOrEmpty(iconImage)) icon.GetComponent<Image>().sprite = Resources.Load<Sprite>("Resources/"+iconImage);
-
 
             transform.Find("Status").Find("Text").GetComponent<TextMeshProUGUI>().text = Appointment.Status;
             if (Appointment.Consultant.ProfileImage != null) transform.Find("Mask").Find("ProfileImage").GetComponent<Image>().sprite = Helpers.ConvertToSprite(Appointment.Consultant.ProfileImage);
